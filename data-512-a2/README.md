@@ -1,6 +1,6 @@
 # Analysis of bias in data on Wikipedia
   
-This analysis is done as part of the assignment A2:Bias in Data for the course DATA 512: Human Centered Data Science. I have provided all the documentation and explanation of data and code to enable full reproducibility of thos work.  
+This analysis is done as part of the assignment A2:Bias in Data for the course DATA 512: Human Centered Data Science. I have provided all the documentation and explanation of data and code to enable full reproducibility of this work.  
   
 The purpose of this study is to explore bias in data on Wikipedia by analyzing Wikipedia articles on politicians from different countries. We will look at two metrics for this analysis - political coverage on Wikipedia as compared to the population of the country and the proportion of high quality articles.  
   
@@ -23,9 +23,10 @@ country|	Country of origin
 rev_id|last revision id of the edit to the article
   
   
-2) **Country Population** : This dataset contains a list of countries and their populations till mid-2018 in millions. This dataset is sourced from the [Population Reference Bureau] (https://www.prb.org/data/). As the dataset is copyrighted, it is not available on this repository. The data might have changed when you extract it from the website. For reproducibility, i have included the intermediate merged file for the final analysis.  
+2) **Country Population** : This dataset contains a list of countries and their populations till mid-2018 in millions. This dataset is sourced from the [Population Reference Bureau](https://www.prb.org/data/). As the dataset is copyrighted, it is not available on this repository. The data might have changed when you extract it from the website. For reproducibility, i have included the intermediate merged file for the final analysis.  
   
 Column|Description
+---|---
 Geography|Country name
 Population mid-2018 (millions)|The population of the country till mid-2018 in millions
   
