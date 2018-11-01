@@ -126,7 +126,7 @@ Country|Total Articles|Good Quality Articles|Proportion Of Good Quality Articles
 
 There are 37 such countries with zero high quality articles These are listed in the Jupyter notebook.
 
-## Observations
+## Reflection
   
 By comparing the highest and lowest ranking countries using the two metrics described above, we can get a fair idea of bias in the data on Wikipedia. Before the analysis, I was expecting to find some bias in the data due to various economic and cultural reasons. Wikipedia contributions would be more common in developed countries with easy access to computers and higher educatioon levels. Developing countries with large populations usually have large economic disparities in terms of education, income, infrastructure. Such factors will affect the Wikipedia representation at the country level.  
   
