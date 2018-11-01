@@ -37,11 +37,11 @@ The data and code required for reproducing this analysis are available in this r
 1) **data folder** - This folder contains all the raw data files used for analysis and the final prepared dataset.  
   
 	*page_data.csv* : This is the Wikipedia articles dataset from Figshare.  
-	*wiki_articles_country_pop.csv* : This is the final merged dataset which has been created by merging and cleaning data from above two datasets including the quality of articles from ORES. This dataset can be created using the code in the IPython notebook OR it can be used directly for the final analysis steps to esnure dull reproducibility.  
+	*wiki_articles_country_pop.csv* : This is the final merged dataset which has been created by merging and cleaning data from 		above two datasets including the quality of articles from ORES. This dataset can be created using the code in the IPython 		notebook OR it can be used directly for the final analysis steps to esnure dull reproducibility.  
 	  
 2) **code** - This folder has all the code required for thr analysis.  
   
-  *hcds-a2-bias.ipynb:* This Jupyter notebook has the complete code for cleaning and merging the raw datasets, getting the quality of articles using the API for ORES and the final analysis using the two metrics - number of articles on politicians as compared to the country population and the proportion of high quality articles.  
+  	*hcds-a2-bias.ipynb:* This Jupyter notebook has the complete code for cleaning and merging the raw datasets, getting the quality 	 of articles using the API for ORES and the final analysis using the two metrics - number of articles on politicians as compared 	 to the country population and the proportion of high quality articles.  
   
 ### Quality of Articles:  
   
@@ -123,6 +123,8 @@ Country|Total Articles|Good Quality Articles|Proportion Of Good Quality Articles
 7|Comoros|51|0|0.0
 8|Marshall Islands|37|0|0.0
 9|Costa Rica|150|0|0.0
+
+There are 37 such countries with zero high quality articles These are listed in the Jupyter notebook.
 
 ## Observations
   
