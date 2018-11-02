@@ -34,9 +34,10 @@ Population mid-2018 (millions)|The population of the country till mid-2018 in mi
 
 The data and code required for reproducing this analysis are available in this repository under the below folder structure.  
   
-1) **data folder** - This folder contains all the raw data files used for analysis and the final prepared dataset.  
+1) **data** - This folder contains all the raw data files used for analysis and the final prepared dataset.  
   
-	*page_data.csv* : This is the Wikipedia articles dataset from Figshare.  
+	*page_data.csv* : This is the Wikipedia articles dataset from Figshare. 
+	  
 	*wiki_articles_country_pop.csv* : This is the final merged dataset which has been created by merging and cleaning data from 		above two datasets including the quality of articles from ORES. This dataset can be created using the code in the IPython 		notebook OR it can be used directly for the final analysis steps to esnure dull reproducibility.  
 	  
 2) **code** - This folder has all the code required for thr analysis.  
@@ -132,7 +133,7 @@ By comparing the highest and lowest ranking countries using the two metrics desc
   
 As seen in the tables above, there is a huge variation in the proportion of Wikipedia articles on politicians with respect to the population of the country. Countries with very low populations have a higher proportion of political coverage as compared to countries with large populations like India, China. This is in agreement to my expectations as discussed above. Another source of bias can be the fact that Engish is not the primary language in many countries and hence the Wikipedia articles about politicians might be contributed in other languages.   
 
-The results using the second metric of high quality articles is somewhat suprising. Countries like Saudi Arabia, Central African Reuplic, Bhutan have a higher proportion of higher quality articles than United States. Given the higher education levels and larger research community in the United States, I would have expected it to have more quality contributions to Wikipedia. This raises the question of how good is the ORES system at predicting quality. Unfortunately, I did not get a chance to assess the reliability of the ORES system and how much can we trust the quality predicted by the machine learning model. As a future steps, I would like to go through the documentation of the system in detail and find out about how reliable it is before making any final conclusions.  
+The results using the second metric of high quality articles is somewhat suprising. Countries like Saudi Arabia, Central African Reuplic, Bhutan have a higher proportion of higher quality articles than United States. Given the higher education levels and larger research community in the United States, I would have expected it to have more quality contributions to Wikipedia. This raises the question of how good is the ORES system at predicting quality. Unfortunately, I did not get a chance to assess the reliability of the ORES system and how much can we trust the quality predicted by the machine learning model. As further steps, I would like to go through the documentation of the system in detail and find out about how reliable it is before reaching any final conclusions.  
 
 
 ## Final Comments
