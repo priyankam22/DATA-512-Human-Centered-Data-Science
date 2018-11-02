@@ -1,6 +1,6 @@
 # Analysis of bias in data on Wikipedia
   
-This analysis is done as part of the assignment A2:Bias in Data for the course DATA 512: Human Centered Data Science. I have provided all the documentation and explanation of data and code to enable full reproducibility of this work.  
+This analysis is done as part of the assignment A2: Bias in Data for the course DATA 512: Human Centered Data Science. I have provided all the documentation and explanation of data and code used for this analysis to enable full reproducibility of this work.  
   
 The purpose of this study is to explore bias in data on Wikipedia by analyzing Wikipedia articles on politicians from different countries. We will look at two metrics for this analysis - political coverage on Wikipedia as compared to the population of the country and the proportion of high quality articles.  
   
@@ -15,15 +15,19 @@ Available from - Keyes, Oliver (2017): Politicians by Country from the English-l
 This dataset contains information on English language Wikipedia articles from the category "Category:Politicians by nationality" and its subcategories. This dataset can be downloaded from [figshare](https://figshare.com/articles/Untitled_Item/5513449). Click on the Download link and extract the "page_data.csv" from the data folder in the downloaded zip file. A downloaded version of the  "page_data.csv" (downloaded on 28th Oct 2018) is also uploaded to the data folder under [git](https://github.com/priyankam22/DATA-512-Human-Centered-Data-Science/tree/master/data-512-a2) repository for easier reproducibility.  
   
 LICENSE: This dataset is released under the CC-BY-SA 4.0 license by the owner on Figshare.  
+    
+The dataset has below columns:
   
 Column|Description
 ---|---
 page|Article Title
 country|	Country of origin
 rev_id|last revision id of the edit to the article
+    
+
+2) **Country Population** : This dataset contains a list of countries and their populations till mid-2018 in millions. This dataset is sourced from the [Population Reference Bureau](https://www.prb.org/data/). As the dataset is copyrighted, it is not available on this repository. The data might have changed when you extract it from this website. For full reproducibility, I have included the intermediate merged file for the final analysis in the data foolder of this repository.  
   
-  
-2) **Country Population** : This dataset contains a list of countries and their populations till mid-2018 in millions. This dataset is sourced from the [Population Reference Bureau](https://www.prb.org/data/). As the dataset is copyrighted, it is not available on this repository. The data might have changed when you extract it from the website. For reproducibility, i have included the intermediate merged file for the final analysis.  
+The dataset has the following columns:
   
 Column|Description
 ---|---
@@ -38,7 +42,7 @@ The data and code required for reproducing this analysis are available in this r
   
 	*page_data.csv* : This is the Wikipedia articles dataset from Figshare. 
 	  
-	*wiki_articles_country_pop.csv* : This is the final merged dataset which has been created by merging and cleaning data from 		above two datasets including the quality of articles from ORES. This dataset can be created using the code in the IPython 		notebook OR it can be used directly for the final analysis steps to esnure dull reproducibility.  
+	*wiki_articles_country_pop.csv* : This is the final merged dataset which has been created by merging and cleaning data from the 	two raw datasets including the quality of articles from ORES. This dataset can be created using the code in the Jupyter 		notebook OR it can be used directly for the final analysis steps to esnure complete reproducibility.  
 	  
 2) **code** - This folder has all the code required for thr analysis.  
   
@@ -55,7 +59,7 @@ To get the quality score of Wikipedia articles, we will use the machine learning
 5. Start - Start-class article
 6. Stub  - Stub-class article
     
-For the purpose of this analysis, "high quality" articles are articles classified as "FA" or "GA".  
+For the purpose of this analysis, "high quality" articles are the articles classified as "FA" or "GA".  
   
 More details about these categories can be found at [Wikipedia: Content Assessment](https://en.wikipedia.org/wiki/Wikipedia:Content_assessment#Grades)  
   
