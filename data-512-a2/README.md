@@ -68,61 +68,61 @@ The ORES system is available under the licence [Creative Commons Attribution-Sha
   
 Country|Population till mid-2018 (in millions)|Total Articles|Articles Per 100 Persons
 ---|---|---|---|
-0|Tuvalu|0.01|55|55.000000
-1|Nauru|0.01|53|53.000000
-2|San Marino|0.03|82|27.333333
-3|Monaco|0.04|40|10.000000
-4|Liechtenstein|0.04|29|7.250000
-5|Tonga|0.10|63|6.300000
-6|Marshall Islands|0.06|37|6.166667
-7|Iceland|0.40|206|5.150000
-8|Andorra|0.08|34|4.250000
-9|Federated States of Micronesia|0.10|38|3.800000
+Tuvalu|0.01|55|55.000000
+Nauru|0.01|53|53.000000
+San Marino|0.03|82|27.333333
+Monaco|0.04|40|10.000000
+Liechtenstein|0.04|29|7.250000
+Tonga|0.10|63|6.300000
+Marshall Islands|0.06|37|6.166667
+Iceland|0.40|206|5.150000
+Andorra|0.08|34|4.250000
+Federated States of Micronesia|0.10|38|3.800000
   
 #### 10 lowest-ranked countries in terms of number of politician articles as a proportion of country population  
   
 Country|Population till mid-2018 (in millions)|Total Articles|Articles Per 100 Persons
 ---|---|---|---|
-0|India|1371.3|986|0.007190
-1|Indonesia|265.2|214|0.008069
-2|China|1393.8|1135|0.008143
-3|Uzbekistan|32.9|29|0.008815
-4|Ethiopia|107.5|105|0.009767
-5|Zambia|17.7|25|0.014124
-6|Korea, North|25.6|39|0.015234
-7|Thailand|66.2|112|0.016918
-8|Bangladesh|166.4|323|0.019411
-9|Mozambique|30.5|60|0.019672
+India|1371.3|986|0.007190
+Indonesia|265.2|214|0.008069
+China|1393.8|1135|0.008143
+Uzbekistan|32.9|29|0.008815
+Ethiopia|107.5|105|0.009767
+Zambia|17.7|25|0.014124
+Korea, North|25.6|39|0.015234
+Thailand|66.2|112|0.016918
+Bangladesh|166.4|323|0.019411
+Mozambique|30.5|60|0.019672
   
 #### 10 highest-ranked countries in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country
   
 Country|Total Articles|Good Quality Articles|Proportion Of Good Quality Articles (%)
 ---|---|---|---|
-0|Korea, North|39|7|17.948718
-1|Saudi Arabia|119|16|13.445378
-2|Central African Republic|68|8|11.764706
-3|Romania|348|40|11.494253
-4|Mauritania|52|5|9.615385
-5|Bhutan|33|3|9.090909
-6|Tuvalu|55|5|9.090909
-7|Dominica|12|1|8.333333
-8|United States|1092|82|7.509158
-9|Benin|94|7|7.446809
+Korea, North|39|7|17.948718
+Saudi Arabia|119|16|13.445378
+Central African Republic|68|8|11.764706
+Romania|348|40|11.494253
+Mauritania|52|5|9.615385
+Bhutan|33|3|9.090909
+Tuvalu|55|5|9.090909
+Dominica|12|1|8.333333
+United States|1092|82|7.509158
+Benin|94|7|7.446809
   
 #### 10 lowest-ranked countries in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country¶
   
 Country|Total Articles|Good Quality Articles|Proportion Of Good Quality Articles (%)
 ---|---|---|---|
-0|Sao Tome and Principe|22|0|0.0
-1|Mozambique|60|0|0.0
-2|Cameroon|105|0|0.0
-3|Guyana|20|0|0.0
-4|Turkmenistan|33|0|0.0
-5|Monaco|40|0|0.0
-6|Moldova|426|0|0.0
-7|Comoros|51|0|0.0
-8|Marshall Islands|37|0|0.0
-9|Costa Rica|150|0|0.0
+Sao Tome and Principe|22|0|0.0
+Mozambique|60|0|0.0
+Cameroon|105|0|0.0
+Guyana|20|0|0.0
+Turkmenistan|33|0|0.0
+Monaco|40|0|0.0
+Moldova|426|0|0.0
+Comoros|51|0|0.0
+Marshall Islands|37|0|0.0
+Costa Rica|150|0|0.0
 
 There are 37 such countries with zero high quality articles These are listed in the Jupyter notebook.
 
