@@ -10,7 +10,7 @@ We will combine the below two datasets for our analysis:
     
 1) **Wikipedia articles** :   
   
-Available from - Keyes, Oliver (2017): Politicians by Country from the English-language Wikipedia. figshare. Fileset.  
+Available from - Keyes, Os (2017): Politicians by Country from the English-language Wikipedia. figshare. Fileset.  
   
 This dataset contains information on English language Wikipedia articles from the category "Category:Politicians by nationality" and its subcategories. This dataset can be downloaded from [figshare](https://figshare.com/articles/Untitled_Item/5513449). Click on the Download link and extract the "page_data.csv" from the data folder in the downloaded zip file. A downloaded version of the  "page_data.csv" (downloaded on 28th Oct 2018) is also uploaded to the data folder under [git](https://github.com/priyankam22/DATA-512-Human-Centered-Data-Science/tree/master/data-512-a2) repository for easier reproducibility.  
   
