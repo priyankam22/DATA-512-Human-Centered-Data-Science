@@ -96,12 +96,12 @@ The City of Seattle Government requires the users of this data to include the fo
   
 ### Findings
 
-![New Permit Trends by Permit Class](image/permits_by_year.png?raw=true "Permits by Year")
+![](https://github.com/priyankam22/DATA-512-Human-Centered-Data-Science/blob/master/data512-final-project/images/permits_by_year.png)
   
-![New Permit Trends by Permit Class](image/permits_by_class.png?raw=true "Permits by Class")  
+![](https://github.com/priyankam22/DATA-512-Human-Centered-Data-Science/blob/master/data512-final-project/images/permits_by_class.png)  
 As seen above, there has been a steady increase in new building permits for multifamily homes till 2016 and a slight decrease for single family homes till 2016. A shapr rise is seen in 2017 in both these permit types in 2017. Since the year used in this analysis is the year in which the permit was applied, we can make a reasonable assumption that this increase in permits in 2017 will translate or might have translated into an increase in ongoing construction projects. This gives us a very clear picture of the growth of Seattle in recent years.
   
-![New Permits Chroropleth](image/chorpleth.png?raw=true "Title")  
+![](https://github.com/priyankam22/DATA-512-Human-Centered-Data-Science/blob/master/data512-final-project/images/choropleth.png)  
 By looking at the number of new completed building permits, we can estimate that the fastest growing neighborhoods in recent years are the Adams in Old Ballard, Greenwood and Fremont in North Seattle. In South Seattle, Columbia City and other neighboring regions in Rainier Valley are seeing significant number of new permits, indicating newly developed neighborhoods. The significantly higher number of building permits in these areas can be a clear indication of where people are moving to or buying/building new houses.
   
 The above findings are based on a messy dataset with multiple shortcomings. Specifically the dates column had missing values which might have led to skipping some valid permits. There is no way of knowing if any other permits are missing from the original dataset due to reasons unknown. More information about the data collection and representation should be obtained from the data owner in order to validate these findings. This work can be expanded if data about completed construction projects can be made available. Future work can include augmenting this dataset with data about schools, parks, traffic to understand and address the main issues with urban planning.
