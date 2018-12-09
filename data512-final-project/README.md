@@ -22,7 +22,9 @@ The below two data sources were used for this analysis. The corresponding downlo
 
 File name: **data/Building_Permits.csv**
   
-The main dataset used for this analysis is the Building Permits data made publicly available by the City of Seattle on their [website](https://data.seattle.gov/Permitting/Building-Permits/76t5-zqzr). The dataset has around 120K rows and 24 columns. The dataset is updated on a daily basis and can be accessed via the [Socrate API](https://dev.socrata.com/foundry/data.seattle.gov/k44w-2dcq). It can also be directly downloaded as a csv from the same API website under the Download & Export section.  
+The main dataset used for this analysis is the Building Permits data made publicly available by the City of Seattle on their [website](https://data.seattle.gov/Permitting/Building-Permits/76t5-zqzr). The dataset has around 120K rows and 24 columns. The dataset is updated on a daily basis and can be accessed via the [Socrate API](https://dev.socrata.com/foundry/data.seattle.gov/k44w-2dcq). It can also be directly downloaded as a csv from the same API website under the Download & Export section. Download and save this file under the data folder. Please note that newly downloaded files may have additional updated data.
+
+Since the size of this file is ~52MB, I was not able to upload this file on this github repository. If you want to exactly reproduce this analysis, then use the intermediate files listed below.
   
 For more information about the API and dataset, refer : https://dev.socrata.com/foundry/data.seattle.gov/k44w-2dcq  
   
@@ -75,6 +77,17 @@ The relevant columns are :
 |S_HOOD|Sub-Region in Seattle|Plain text|
 |geometry|Boundary coordinates of Polygon Shape|Plain text|
      
+**Intermediate Files**
+  
+File name: **data/New_Permits.csv**
+This is the original Permits data file after filtering on "New" PermitClassDesc.
+  
+File name: **data/New_Permits_Cleaned.csv**
+This is a cleaned version of the new permits data file above.
+
+File name: **data/New_Permits_SubRegions.csv**
+This is a file with sub_regions and corresponding counts of new permits since 2011.
+  
 ### Data Limitations
   
 The data is about building permits which were submitted to the Seattle Department of Construction (SDCI) for approvals. There is no information about whether the project was completed or not. There might be cases where the permit was issued but the project was scrapped due to some reason. Since I did not find a publicly available dataset having information about completed projects, for the sake of simplicity I will make an assumption that most of the proposed projects with an issued permit were completed.  
